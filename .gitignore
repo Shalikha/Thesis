@@ -1,0 +1,75 @@
+# ===============================
+# macOS
+# ===============================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# Virtual environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+
+# ===============================
+# IDEs / Editors
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Data & outputs (IMPORTANT)
+# ===============================
+# These are ignored to keep the repo lightweight.
+# Remove these lines if you REALLY want to track them.
+# data/**
+# output/**
+
+# ===============================
+# Media / large files
+# ===============================
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.jpg
+*.jpeg
+*.tiff
+*.zip
+*.tar
+*.gz
+*.7z
+
+# ===============================
+# Secrets / configs
+# ===============================
+*.env
+
