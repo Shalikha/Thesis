@@ -1,6 +1,6 @@
-# Geometry-Aware Traffic Analysis from Monocular Video
+# Geometry-Aware 3D Traffic Analysis from Monocular Video
 
-This project implements a geometry-aware traffic analysis pipeline for monocular video recorded using a fixed camera. The system detects and tracks vehicles, reconstructs their positions in world coordinates, and estimates physically interpretable quantities such as vehicle speed, inter-vehicle distance and overtaking behaviour.
+This project implements a geometry-aware 3D traffic analysis pipeline for monocular video recorded using a fixed camera. The system detects and tracks vehicles, reconstructs their positions in world coordinates, and estimates physically interpretable quantities such as vehicle speed, inter-vehicle distance and overtaking behaviour.
 
 ---
 
