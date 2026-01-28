@@ -64,8 +64,11 @@ Thesis/
 │           ├── roi.py
 │           └── selectPoints.py
 │
+├── SETUP_GUIDE.md                        # Setup and usage instructions
+├── README.md                             # Project overview
+├── requirements.txt                      # Python dependencies
 ├── .gitignore
-└── requirements.txt
+└── .gitattributes 
 ```
 
 ---
