@@ -20,28 +20,50 @@ This project implements a geometry-aware 3D traffic analysis pipeline for monocu
 
 ```text
 Thesis/
-├── data
+├── data/                                # Input data, models, and calibration files
 │   ├── 3dbb_results.json
 │   ├── best.pt
 │   ├── calibration-lookup-table.npy
 │   ├── coordinate_mapping_2030.json
 │   ├── gopro_calibration_fisheye.npz
 │   ├── refpts1.png
+│   ├── refpts1.txt
 │   ├── refpts2.png
+│   ├── refpts2.txt
 │   ├── sample_image.png
 │   ├── yolov8n-seg.pt
 │   └── yolov8n.pt
-├── output
+│
+├── output/                              # Generated outputs and evaluation results
 │   ├── corner_points.json
 │   ├── detections_kitti.txt
 │   └── full_comparison_report.json
-├── src
+│
+├── src/                                 # Core thesis implementation
 │   ├── bbox_3d_generator.py
 │   ├── compare_all_approaches.py
 │   ├── distance_analyzer.py
 │   ├── fallback.py
 │   ├── interactive_3d_bbox.py
 │   └── speed_estimator.py
+│
+├── utils/                               # Supporting tools and utilities
+│   ├── .gitkeep                      
+│   └── calibration_tool/
+│       ├── .gitignore
+│       ├── README.md
+│       ├── main.py
+│       ├── requirements.txt
+│       ├── stabilization.py
+│       ├── Beispieldaten/            
+│       │   ├── .gitkeep
+│       │   ├── Max_Pla.txt
+│       │   └── example-street.png
+│       └── utils/
+│           ├── calibration.py
+│           ├── roi.py
+│           └── selectPoints.py
+│
 ├── .gitignore
 └── requirements.txt
 ```
