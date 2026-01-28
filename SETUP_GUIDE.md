@@ -180,7 +180,7 @@ python speed_estimator.py 0    # First video
 python speed_estimator.py 1 2  # Videos 1 and 2
 ```
 
-**Output:** Video with speed overlays
+This generates videos with speed overlays. 
 
 ### Step 3: Run Distance Analysis
 
