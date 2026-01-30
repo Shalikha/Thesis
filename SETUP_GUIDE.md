@@ -352,7 +352,7 @@ frame_start,frame_end,vehicle_a,vehicle_b,min_lateral_dist_m,min_total_dist_m,ov
     │  Car A  │
     │  (rear) │
     └─────────┘		    ↑ Direction 
-         ↑		         │ of travel
+         ↑		        │ of travel
          │ GAP		    
          ↓
     ┌─────────┐
