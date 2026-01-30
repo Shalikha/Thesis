@@ -338,10 +338,9 @@ frame_start,frame_end,vehicle_a,vehicle_b,min_lateral_dist_m,min_total_dist_m,ov
 
 ```
     LATERAL DISTANCE (Edge-to-Edge)
-    ←─────────────────────────────→
 
     ┌─────────┐       ┌─────────┐
-    │         │       │         │
+    │         │←─────→│         │
     │  Car A  │  GAP  │  Car B  │
     │         │       │         │
     └─────────┘       └─────────┘
@@ -352,9 +351,9 @@ frame_start,frame_end,vehicle_a,vehicle_b,min_lateral_dist_m,min_total_dist_m,ov
     ┌─────────┐
     │  Car A  │
     │  (rear) │
-    └─────────┘
-         ↑
-         │ GAP
+    └─────────┘		    ↑ Direction 
+         ↑		         │ of travel
+         │ GAP		    
          ↓
     ┌─────────┐
     │ (front) │
